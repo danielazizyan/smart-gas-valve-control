@@ -1,0 +1,12 @@
+# Configuration for gas valve control
+
+gas_sensor_pin: 17                  # GPIO pin for the gas sensor
+relay_pin: 18                       # GPIO pin for the relay controlling the gas valve
+gas_threshold: 1                    # Threshold value for gas concentration triggering valve closure
+notification_threshold: 2           # Threshold value for sending email notifications
+email_sender: your_email@gmail.com  
+email_password: your_password       
+email_receiver: recipient_email@example.com  
+email_server: smtp.gmail.com        
+email_port: 587                     
+sleep_duration: 1                   # Duration in seconds for the sleep between sensor readings
