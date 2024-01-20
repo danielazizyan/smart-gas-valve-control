@@ -30,12 +30,12 @@ This project uses a Raspberry Pi and a gas sensor to monitor gas levels. If the 
    ```bash
    pip install RPi.GPIO pyyaml
 
-3. Configure the **config.yaml** file
+3. Configure the **'config.yaml'** file
 4. Run the Python script:
    ```bash
    python gas_valve_control.py
 
 ## Logs
-Log files are stored in gas_valve_control.log and provide information about gas levels, valve actions, and email notifications.
+Log files are stored in **'gas_valve_control.log'** and provide information about gas levels, valve actions, and email notifications.
 
 
